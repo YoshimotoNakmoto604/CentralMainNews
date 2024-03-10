@@ -1,0 +1,95 @@
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+.header {
+    background-color: #01275f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 36px;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav__item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav__item a:hover {
+    text-decoration: underline;
+}
+
+#Moon{
+    height: 555px;
+
+}
+#AA {
+   text-align: center;
+   text-decoration: underline;
+   font-size: 55px;
+}
+
+#pa{
+    font-style: conic-sans;
+    text-align: left;
+    align-content: left;
+
+}
+
+#BBB{
+    align-items: center;
+    height: 14px;
+}
+
+#Cree{
+    text-align: center;
+}
+
+/* Banner Styles */
+.banner__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* News Section Styles */
+.news {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.news__title {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-display: undelined;
+}
